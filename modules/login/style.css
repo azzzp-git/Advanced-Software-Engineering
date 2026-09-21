@@ -1,0 +1,45 @@
+/* 登录模块私有样式 */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 380px;
+  margin: 40px 20px;
+}
+
+.title {
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: var(--text-light);
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: var(--text-light);
+}
+
+.remember label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.back {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 14px;
+}
